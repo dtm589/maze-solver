@@ -106,3 +106,6 @@ class Maze:
         for col in self._cells:
             for cell in col:
                 cell.visisted = False
+                
+    def solve(self):
+        return self._solve_r(0, 0)
