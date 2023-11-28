@@ -18,7 +18,7 @@ def main():
     print('Maze Created')
     is_solveable = maze.solve()
     if not is_solveable:
-        print("Maze con not be solved!")
+        print("Maze can not be solved!")
     else:
         print("Maze Solved!")
 
